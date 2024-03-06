@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SimpleShipShooterGame/static/css/main.17683e37.css",
-    "main.js": "/SimpleShipShooterGame/static/js/main.316e143c.js",
+    "main.js": "/SimpleShipShooterGame/static/js/main.b3321528.js",
     "index.html": "/SimpleShipShooterGame/index.html",
     "main.17683e37.css.map": "/SimpleShipShooterGame/static/css/main.17683e37.css.map",
-    "main.316e143c.js.map": "/SimpleShipShooterGame/static/js/main.316e143c.js.map"
+    "main.b3321528.js.map": "/SimpleShipShooterGame/static/js/main.b3321528.js.map"
   },
   "entrypoints": [
     "static/css/main.17683e37.css",
-    "static/js/main.316e143c.js"
+    "static/js/main.b3321528.js"
   ]
 }
