@@ -9,49 +9,77 @@ export class PlayGameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("background", "/Assets/orig.png");
+    this.load.image("background", "./SimpleShipShooterGame/Assets/orig.png");
     // this.load.image("ship", "/Assets/ship.png");
     // this.load.image("ship2", "/Assets/ship2.png");
     // this.load.image("ship3", "/Assets/ship3.png");
-    this.load.spritesheet("ship", "/Assets/spritesheets/ship.png", {
-      frameWidth: 16,
-      frameHeight: 16,
-    });
+    this.load.spritesheet(
+      "ship",
+      "./SimpleShipShooterGame/Assets/spritesheets/ship.png",
+      {
+        frameWidth: 16,
+        frameHeight: 16,
+      }
+    );
 
-    this.load.spritesheet("ship2", "/Assets/spritesheets/ship2.png", {
-      frameWidth: 32,
-      frameHeight: 16,
-    });
+    this.load.spritesheet(
+      "ship2",
+      "./SimpleShipShooterGame/Assets/spritesheets/ship2.png",
+      {
+        frameWidth: 32,
+        frameHeight: 16,
+      }
+    );
 
-    this.load.spritesheet("ship3", "/Assets/spritesheets/ship3.png", {
-      frameWidth: 32,
-      frameHeight: 32,
-    });
+    this.load.spritesheet(
+      "ship3",
+      "./SimpleShipShooterGame/Assets/spritesheets/ship3.png",
+      {
+        frameWidth: 32,
+        frameHeight: 32,
+      }
+    );
 
-    this.load.spritesheet("explosion", "/Assets/spritesheets/explosion.png", {
-      frameWidth: 16,
-      frameHeight: 16,
-    });
+    this.load.spritesheet(
+      "explosion",
+      "./SimpleShipShooterGame/Assets/spritesheets/explosion.png",
+      {
+        frameWidth: 16,
+        frameHeight: 16,
+      }
+    );
 
-    this.load.spritesheet("power-up", "/Assets/spritesheets/power-up.png", {
-      frameWidth: 16,
-      frameHeight: 16,
-    });
+    this.load.spritesheet(
+      "power-up",
+      "./SimpleShipShooterGame/Assets/spritesheets/power-up.png",
+      {
+        frameWidth: 16,
+        frameHeight: 16,
+      }
+    );
 
-    this.load.spritesheet("player", "/Assets/spritesheets/player.png", {
-      frameWidth: 16,
-      frameHeight: 24,
-    });
+    this.load.spritesheet(
+      "player",
+      "./SimpleShipShooterGame/Assets/spritesheets/player.png",
+      {
+        frameWidth: 16,
+        frameHeight: 24,
+      }
+    );
 
-    this.load.spritesheet("beam", "/Assets/spritesheets/beam.png", {
-      frameWidth: 16,
-      frameHeight: 16,
-    });
+    this.load.spritesheet(
+      "beam",
+      "./SimpleShipShooterGame/Assets/spritesheets/beam.png",
+      {
+        frameWidth: 16,
+        frameHeight: 16,
+      }
+    );
 
     this.load.bitmapFont(
       "pixelFont",
-      "/Assets/font/font.png",
-      "/Assets/font/font.xml"
+      "./SimpleShipShooterGame/Assets/font/font.png",
+      "./SimpleShipShooterGame/Assets/font/font.xml"
     );
   }
 
