@@ -32,14 +32,11 @@ const App = () => {
         <h1>Space Shooter</h1>
         <div className="controls">
           <div className="single-control">
-            <img src="./SimpleShipShooterGame/Images/arrows.png" alt="Arrows" />
+            <img src="./Images/arrows.png" alt="Arrows" />
             <span>Move the ship</span>
           </div>
           <div className="single-control">
-            <img
-              src="./SimpleShipShooterGame/Images/spacebar.png"
-              alt="Spacebar"
-            />
+            <img src="./Images/spacebar.png" alt="Spacebar" />
             <span>Fire beams</span>
           </div>
         </div>
